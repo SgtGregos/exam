@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Settings Titles -->
+    <string name="payment_settings_header">Payment Settings</string>
+
+    <!-- Settings Attributes -->
+    <string name="payments_setting">Allow payments</string>
+    <string name="currency_setting">Allow currency</string>
+    <string name="signature_setting">Allow signature
+    </string>
+    <string name="payments_summary_off">No Payments Allowed</string>
+    <string name="payments_summary_on">Allows Input Of Payments</string>
+
+
+    <string name="currency_summary_off">Only ILS</string>
+    <string name="currency_summary_on">Allow Other Currencies</string>
+
+
+    <string name="signature_summary_off">No Signature</string>
+    <string name="signature_summary_on">Input Signature</string>
+
+    <!-- Main Fragment Attributes   -->
+    <string name="text_amount">Amount:</string>
+    <string name="edit_amount_hint">200</string>
+    <string name="switch_payments">Payments: </string>
+    <string name="text_currency">Currency:</string>
+    <string name="radio_currency_usd">USD</string>
+    <string name="radio_currency_ils">ILS</string>
+    <string name="switch_signature">Signature: </string>
+    <string name="button_submit">Submit</string>
+    <string name="button_exit">Exit</string>
+    <!-- Receipt Fragments Attributes -->
+    <string name="text_receipt_title">Receipt</string>
+    <string name="text_receipt_amount">Amount: </string>
+    <string name="text_receipt_payments">Payments: </string>
+    <string name="text_receipt_currency">Currency: </string>
+    <string name="text_receipt_signature">Signature: </string>
+    <string name="button_receipt_finish">Finish</string>
+    <string name="button_receipt_cancel">Calnce</string>
+    <!-- Receipt Fragments Attributes -->
+    <string name="button_submit_signature">Submit</string>
+    <string name="button_cancel_signature">Cancel</string>
+
+
+
+</resources>

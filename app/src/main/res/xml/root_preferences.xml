@@ -1,0 +1,41 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<PreferenceScreen
+    app:key="back"
+    android:icon="@drawable/ic_back"
+    >
+</PreferenceScreen>
+
+    <PreferenceCategory app:title="@string/payment_settings_header">
+
+
+        <SwitchPreferenceCompat
+            app:key="payments"
+            app:summaryOff="@string/payments_summary_off"
+            app:summaryOn="@string/payments_summary_on"
+            app:title="@string/payments_setting" />
+
+        <SwitchPreferenceCompat
+            app:key="currency"
+            app:summaryOff="@string/currency_summary_off"
+            app:summaryOn="@string/currency_summary_on"
+            app:title="@string/currency_setting" />
+
+        <SwitchPreferenceCompat
+            app:key="signature"
+            app:summaryOff="@string/signature_summary_off"
+            app:summaryOn="@string/signature_summary_on"
+            app:title="@string/signature_setting" />
+
+    </PreferenceCategory>
+
+<!--        <include-->
+<!--            android:id="@+id/toolbar"-->
+<!--            layout="@layout/toolbar"-->
+<!--            />-->
+
+</PreferenceScreen>
+
